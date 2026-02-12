@@ -133,6 +133,6 @@ java -jar junit-platform-console-standalone.jar -cp bin --scan-classpath
 
 * Louis Müller
 
-* [Name of your Partner]
+* [Partner]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
