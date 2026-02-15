@@ -1,16 +1,16 @@
-# 💣 Bomberman - Java Game Engine & Custom Data Structures
+# Bomberman - Java Game Engine & Custom Data Structures
 
 ![Java](https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk)
 ![Testing](https://img.shields.io/badge/Testing-JUnit%205-green?style=for-the-badge&logo=junit5)
 ![Architecture](https://img.shields.io/badge/Design-Patterns-blue?style=for-the-badge)
 
-## 📖 About The Project
+## About The Project
 
 This project is a sophisticated implementation of the classic **Bomberman** game, developed as part of the "Programming 2" university module.
 
 Going beyond simple game logic, this project focuses on **advanced software engineering concepts**. Instead of relying on standard Java Collections for everything, we implemented **custom data structures** (Vector, Doubly Linked List) from scratch to understand memory management and algorithmic efficiency. The game features a modular architecture with a **Console UI**, robust **Exception Handling**, and dynamic **Level Generation** using Java Reflection.
 
-### ✨ Key Technical Features
+### Key Technical Features
 * **Custom Collections Framework:** Implemented generic `Vector<T>` and `DoubleLinkedList<T>` with custom Iterators to manage game objects efficiently.
 * **Game Loop Architecture:** Separation of `GameState` (Data), `GameImpl` (Logic), and `UI` (View) allows for decoupled development.
 * **Java Reflection:** Dynamic loading of Level Generators (`LevelGeneratorLoader`) at runtime, allowing new level types to be added without recompiling the core engine.
@@ -19,7 +19,7 @@ Going beyond simple game logic, this project focuses on **advanced software engi
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The project follows a strict package-based modular design:
 
@@ -49,7 +49,7 @@ Levels are not hardcoded. The `LevelGeneratorLoader` uses Reflection (`Class.for
 
 ---
 
-## 🕹️ Gameplay & Mechanics
+## Gameplay & Mechanics
 
 The game runs in the console using ASCII art rendering.
 
@@ -87,7 +87,7 @@ The game runs in the console using ASCII art rendering.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 **Prerequisites**
 
@@ -112,7 +112,7 @@ The game runs in the console using ASCII art rendering.
 
 ---
 
-## 🧪 Testing
+## Testing
 
 The project includes a robust test suite using JUnit 5.
 
@@ -129,7 +129,7 @@ java -jar junit-platform-console-standalone.jar -cp bin --scan-classpath
 
 ---
 
-## 👨‍💻 Team
+## Team
 
 * Louis Müller
 
